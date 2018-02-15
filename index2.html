@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Harris GoGoGo</title>
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="lib/icheck-bootstrap/1.0.7/icheck-bootstrap.min.css" rel="stylesheet" />
+    <link href="styles/harristrip.min.css?version=2017101301" rel="stylesheet" />
+</head>
+<body ng-app="app">
+
+    <div ui-view="header"></div>
+
+    <div ui-view></div>
+
+    <div ui-view="footer"></div>
+
+    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.bootcss.com/angular.js/1.6.4/angular.min.js"></script>
+    <script src="https://cdn.bootcss.com/angular.js/1.6.4/angular-resource.min.js"></script>
+    <script src="https://cdn.bootcss.com/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+
+    <!-- echarts -->
+    <script src="https://api.map.baidu.com/api?v=2.0&ak=CE6a044283d3759e79887040e3702586&s=1"></script>
+    <script src="https://cdn.bootcss.com/echarts/4.0.2/echarts.min.js"></script>
+    <script src="https://cdn.bootcss.com/echarts/4.0.2/extension/bmap.min.js"></script>
+
+    <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfBhvgR3YmcI2g5N08n1qWMbKyqjweW5Y"></script>-->
+    <!--<script src="https://ditu.google.cn/maps/api/js?key=AIzaSyBfBhvgR3YmcI2g5N08n1qWMbKyqjweW5Y"></script>-->
+
+    <script src="scripts/harristrip.js?version=2017101301"></script>
+
+    <script src="scripts/route.js?version=2017101301"></script>
+    <script src="scripts/app.js?version=2017101301"></script>
+
+    <script>
+        window.version = 2017101401;
+    </script>
+
+</body>
+</html>
