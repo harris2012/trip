@@ -22,6 +22,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -72,6 +73,7 @@
     <Content Include="index2.html" />
     <Content Include="scripts\app.js" />
     <Content Include="scripts\controllers\GoogleController.js" />
+    <Content Include="scripts\controllers\SchoolController.js" />
     <Content Include="scripts\controllers\WelcomeController.js" />
     <Content Include="scripts\harristrip.js" />
     <Content Include="scripts\harristrip.min.js">
@@ -102,6 +104,7 @@
     </None>
     <Content Include="styles\harristrip.less" />
     <Content Include="data\welcome.json" />
+    <Content Include="data\school.json" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

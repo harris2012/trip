@@ -28,4 +28,10 @@
         templateUrl: 'scripts/views/view_google.html?v=' + window.version,
         controller: GoogleController
     });
+
+    $stateProvider.state('HarrisTrip.school', {
+        url: 'school',
+        templateUrl: 'scripts/views/view_school.html?v=' + window.version,
+        controller: SchoolController
+    });
 }

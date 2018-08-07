@@ -5,6 +5,7 @@
       "scripts/service/tripservice.js",
 
       "scripts/controllers/WelcomeController.js",
+      "scripts/controllers/SchoolController.js",
       "scripts/controllers/GoogleController.js"
     ]
   }
