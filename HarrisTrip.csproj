@@ -84,6 +84,7 @@
     <Content Include="scripts\views\view_footer.html" />
     <Content Include="scripts\views\view_google.html" />
     <Content Include="scripts\views\view_header.html" />
+    <Content Include="scripts\views\view_school.html" />
     <Content Include="scripts\views\view_welcome.html" />
     <Content Include="styles\harristrip.css">
       <DependentUpon>harristrip.less</DependentUpon>
